@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin
+Disallow: /.git
+Disallow: /backup
+Disallow: /you-found-it
+
+# nice. keep going.
