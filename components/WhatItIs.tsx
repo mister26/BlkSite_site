@@ -17,10 +17,8 @@ export function WhatItIs() {
         >
           <p className="max-w-3xl text-lg leading-8 text-blacksite-muted sm:text-xl">
             Blacksite is a local research workspace for bug bounty and
-            self-audit work. I open it when a scoped target is worth tracking,
-            keep notes and evidence in the same dossier while I test, and leave
-            with either a finding ready for submission or a record that explains
-            why I dropped it.
+            self-audit work. A scoped target enters the dossier, evidence stays
+            attached to the record, and release waits until review is complete.
           </p>
         </motion.div>
       </div>

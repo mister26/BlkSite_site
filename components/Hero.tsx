@@ -33,13 +33,13 @@ export function Hero() {
           Private offensive security research.
         </p>
         <p className="mt-4 flex max-w-[21rem] flex-wrap gap-x-3 gap-y-1 font-mono text-sm uppercase text-blacksite-muted sm:max-w-none sm:text-base">
-          <span>Scope-guarded.</span>
-          <span>Local-first.</span>
-          <span>Evidence-first.</span>
+          <span>Scoped.</span>
+          <span>Local.</span>
+          <span>Evidence-bound.</span>
         </p>
         <p className="mt-7 max-w-[21rem] text-base leading-7 text-blacksite-muted sm:max-w-2xl sm:text-lg">
-          I use Blacksite to keep scoped research in one local workspace while I
-          collect evidence and decide whether a finding is worth submitting.
+          A controlled workspace for target selection and findings that survive
+          review.
         </p>
         <div className="mt-9 flex flex-wrap gap-3">
           <a
@@ -47,6 +47,12 @@ export function Hero() {
             className="rounded-lg border border-blacksite-red/45 bg-blacksite-red/12 px-5 py-3 text-sm font-medium text-blacksite-text shadow-redline transition hover:border-blacksite-redSoft hover:bg-blacksite-red/20 focus:outline-none focus-visible:ring-2 focus-visible:ring-blacksite-redSoft focus-visible:ring-offset-2 focus-visible:ring-offset-blacksite-bg"
           >
             View Dossier
+          </a>
+          <a
+            href="#contact"
+            className="rounded-lg border border-white/12 bg-white/[0.03] px-5 py-3 text-sm font-medium text-blacksite-text/85 transition hover:border-white/24 hover:bg-white/[0.06] hover:text-blacksite-text focus:outline-none focus-visible:ring-2 focus-visible:ring-blacksite-redSoft focus-visible:ring-offset-2 focus-visible:ring-offset-blacksite-bg"
+          >
+            Contact
           </a>
         </div>
       </motion.div>

@@ -6,15 +6,19 @@ import { SectionLabel } from "@/components/SectionLabel";
 const principles = [
   {
     title: "Scope-Guarded",
-    copy: "Blacksite keeps the allowed scope attached to the work so the operator does not have to trust memory mid-run.",
+    copy: "The allowed terrain stays attached to the work. No memory-based scope calls.",
   },
   {
     title: "Local-First",
-    copy: "The working record stays on the machine unless the operator chooses to move it into a submission.",
+    copy: "The working record stays on the machine until release is approved.",
   },
   {
     title: "Evidence-First",
-    copy: "A note only graduates into a finding after the evidence can be checked by hand and repeated later.",
+    copy: "A note becomes a finding only when the proof can be repeated.",
+  },
+  {
+    title: "Operator-Approved",
+    copy: "Nothing leaves the dossier without final human authorization.",
   },
 ];
 
@@ -26,7 +30,7 @@ export function Principles() {
     >
       <SectionLabel eyebrow="OPERATING CONSTRAINTS" title="Principles" />
       <motion.div
-        className="mt-8 grid gap-4 lg:grid-cols-3"
+        className="mt-8 grid gap-4 sm:grid-cols-2 xl:grid-cols-4"
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, margin: "-80px" }}

@@ -79,9 +79,9 @@ export function DossierPanel() {
         >
           <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-blacksite-red/70 to-transparent" />
           <p className="max-w-2xl text-lg leading-8 text-blacksite-muted sm:text-xl">
-            Blacksite keeps the scoped target and working evidence in one
-            place. If a finding does not hold up inside the dossier, it never
-            becomes a submission.
+            Blacksite keeps the scoped target, working notes, evidence, and
+            review trail inside one local record. A signal that cannot survive
+            the dossier does not become a submission.
           </p>
         </motion.div>
       </div>

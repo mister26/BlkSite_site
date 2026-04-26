@@ -5,20 +5,20 @@ import { SectionLabel } from "@/components/SectionLabel";
 
 const flow = [
   {
-    label: "scope",
-    copy: "Start with the rules in view.",
+    label: "terrain",
+    copy: "Scope and rules fixed before contact.",
   },
   {
-    label: "worklog",
-    copy: "Track what changed while testing.",
+    label: "field",
+    copy: "Recon and probes stay inside the boundary.",
   },
   {
-    label: "evidence",
-    copy: "Keep the proof beside the note.",
+    label: "signal",
+    copy: "Evidence attaches to the working record.",
   },
   {
-    label: "submission",
-    copy: "Ship the finding only after review.",
+    label: "packet",
+    copy: "Submission waits for review.",
   },
 ];
 
@@ -35,9 +35,9 @@ export function SignalFlow() {
             viewport={{ once: true, margin: "-80px" }}
             transition={{ duration: 0.6 }}
           >
-            Pick a target. Keep the scope beside the work. Capture evidence
-            while testing, then submit only the finding that still holds up when
-            reviewed.
+            Every target creates noise: pages, parameters, redirects, weak
+            signals, duplicates, dead ends. Blacksite keeps the terrain defined,
+            filters the field, and preserves only what can be reproduced.
           </motion.p>
         </div>
 
@@ -72,7 +72,7 @@ export function SignalFlow() {
               </span>
               <span
                 className={
-                  step.label === "evidence"
+                  step.label === "signal"
                     ? "mt-4 block h-1.5 w-1.5 rounded-full bg-blacksite-redSoft shadow-[0_0_18px_rgba(224,82,102,0.65)] motion-safe:animate-[status-pulse_4.5s_ease-in-out_infinite]"
                     : "mt-4 block h-1.5 w-8 bg-white/12"
                 }

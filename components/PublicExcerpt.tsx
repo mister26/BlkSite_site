@@ -23,6 +23,14 @@ export function PublicExcerpt() {
             <span>BS-001</span>
           </div>
           <div className="grid gap-2 sm:grid-cols-[8rem_1fr]">
+            <span className="text-blacksite-muted">STATUS</span>
+            <span>ACTIVE</span>
+          </div>
+          <div className="grid gap-2 sm:grid-cols-[8rem_1fr]">
+            <span className="text-blacksite-muted">ACCESS</span>
+            <span>LIMITED DISCLOSURE</span>
+          </div>
+          <div className="grid gap-2 sm:grid-cols-[8rem_1fr]">
             <span className="text-blacksite-muted">SUMMARY</span>
             <span>
               <span className="sr-only">redacted</span>
@@ -33,22 +41,19 @@ export function PublicExcerpt() {
             </span>
           </div>
           <div className="grid gap-2 sm:grid-cols-[8rem_1fr]">
-            <span className="text-blacksite-muted">ACCESS</span>
-            <span>LIMITED DISCLOSURE</span>
-          </div>
-          <div className="grid gap-2 sm:grid-cols-[8rem_1fr]">
             <span className="text-blacksite-muted">NOTE</span>
-            <span>Additional details withheld.</span>
+            <span>Public surface intentionally minimal.</span>
           </div>
           <div className="grid gap-2 sm:grid-cols-[8rem_1fr]">
             <span className="text-blacksite-muted">CHECK</span>
-            <span>Operator review required.</span>
+            <span>Additional details withheld. Operator review required.</span>
           </div>
         </div>
 
-        <p className="mt-6 max-w-3xl text-base leading-7 text-blacksite-muted sm:text-lg">
-          The public surface is intentionally minimal. Blacksite is built for
-          scoped review, and the operator decides what leaves the machine.
+        <p className="mt-6 max-w-3xl whitespace-pre-line font-mono text-sm uppercase leading-7 text-blacksite-muted sm:text-base">
+          Scoped review only.{"\n"}
+          Evidence before claim.{"\n"}
+          Release by approval.
         </p>
 
         <ArtifactExcerpt />
