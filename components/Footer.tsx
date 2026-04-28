@@ -11,6 +11,12 @@ export function Footer() {
         <p className="font-mono text-xs uppercase text-blacksite-muted">
           Operator: Redacted
         </p>
+        <a
+          href="mailto:contact@theblksite.com"
+          className="w-fit font-mono text-xs uppercase text-blacksite-muted transition hover:text-blacksite-text focus:outline-none focus-visible:ring-2 focus-visible:ring-blacksite-redSoft"
+        >
+          Contact: contact@theblksite.com
+        </a>
       </div>
     </footer>
   );

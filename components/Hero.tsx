@@ -49,7 +49,7 @@ export function Hero() {
             View Dossier
           </a>
           <a
-            href="#contact"
+            href="mailto:contact@theblksite.com"
             className="rounded-lg border border-white/12 bg-white/[0.03] px-5 py-3 text-sm font-medium text-blacksite-text/85 transition hover:border-white/24 hover:bg-white/[0.06] hover:text-blacksite-text focus:outline-none focus-visible:ring-2 focus-visible:ring-blacksite-redSoft focus-visible:ring-offset-2 focus-visible:ring-offset-blacksite-bg"
           >
             Contact
