@@ -6,7 +6,7 @@ import { SectionLabel } from "@/components/SectionLabel";
 const principles = [
   {
     title: "Scope-Guarded",
-    copy: "The allowed terrain stays attached to the work. No memory-based scope calls.",
+    copy: "The allowed terrain stays attached to the work. Scope is read from the record, not recalled.",
   },
   {
     title: "Local-First",
