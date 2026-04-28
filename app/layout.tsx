@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
   display: "swap",
 });
 
-const title = "BLACKSITE - Private Offensive Security Research";
+const title = "BLACKSITE — Authorized Security Research";
 const description =
   "A private, scope-guarded security research framework by Redacted.";
 

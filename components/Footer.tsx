@@ -6,10 +6,10 @@ export function Footer() {
     >
       <div className="flex flex-col gap-3 border-t border-white/10 pt-6">
         <p className="text-sm text-blacksite-text">
-          BLACKSITE - a Redacted project
+          BLACKSITE — a Redacted project
         </p>
         <p className="font-mono text-xs uppercase text-blacksite-muted">
-          Operator: Redacted
+          Authorized testing only.
         </p>
         <a
           href="mailto:contact@theblksite.com"

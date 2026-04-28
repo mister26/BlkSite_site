@@ -30,12 +30,10 @@ export function Hero() {
           BLACKSITE
         </h1>
         <p className="mt-7 max-w-[20rem] text-2xl font-medium leading-tight text-blacksite-text/92 sm:max-w-none sm:text-4xl">
-          Private offensive security research.
+          Authorized security research and product-security validation.
         </p>
-        <p className="mt-4 flex max-w-[21rem] flex-wrap gap-x-3 gap-y-1 font-mono text-sm uppercase text-blacksite-muted sm:max-w-none sm:text-base">
-          <span>Scoped.</span>
-          <span>Local.</span>
-          <span>Evidence-bound.</span>
+        <p className="mt-4 max-w-[21rem] font-mono text-sm uppercase text-blacksite-muted sm:max-w-none sm:text-base">
+          Research stays scoped. Evidence stays attached. Release requires approval.
         </p>
         <p className="mt-7 max-w-[21rem] text-base leading-7 text-blacksite-muted sm:max-w-2xl sm:text-lg">
           A controlled workspace for target selection and findings that survive
