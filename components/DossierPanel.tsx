@@ -10,7 +10,7 @@ const metadata = [
   ["MODE", "SUBMISSION TRACK"],
   ["ISSUED", "2026-04-21"],
   ["REVIEW", "PENDING"],
-  ["OPERATOR", "REDACTED PUNK"],
+  ["OPERATOR", "REDACTED"],
   ["AFFILIATION", "REDACTED"],
   ["RECORD", "PUBLIC EXCERPT ONLY"],
 ];

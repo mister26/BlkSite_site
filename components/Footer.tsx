@@ -9,7 +9,7 @@ export function Footer() {
           BLACKSITE - a Redacted project
         </p>
         <p className="font-mono text-xs uppercase text-blacksite-muted">
-          Operator: Redacted Punk
+          Operator: Redacted
         </p>
       </div>
     </footer>
